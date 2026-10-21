@@ -8,7 +8,7 @@ ObziMetria 3D is an interactive observatory design and planning application for 
 
 A building can look perfectly adequate on paper and still leave too little room for counterweights, a camera, a moving roof, or a second telescope. ObziMetria 3D helps you investigate those problems while your design can still be changed.
 
-![ObziMetria 3D: interactive observatory with an open roll-off roof and telescope](<img width="1918" height="1031" alt="Képernyőkép 2026-10-21 201859" src="https://github.com/user-attachments/assets/b516988c-b5c3-4732-9982-1bb6eb95b6a0" />)
+<img width="1918" height="1031" alt="Képernyőkép 2026-10-21 201859" src="https://github.com/user-attachments/assets/b516988c-b5c3-4732-9982-1bb6eb95b6a0" />
 
 > **Version 2.2** supports up to **six telescope piers**, both hemispheres, realistic mount geometry, multiple roof types, full-aperture horizon checks, and night-long target tracking. The bundled HTML application works **offline**.
 
@@ -32,7 +32,7 @@ Use the **Overview**, **Equator side**, **Above**, **Mount close-up**, **See-thr
 
 A single design can contain **one to six piers**, each with its own telescope and mount settings. Drag piers around the plan, enter precise positions, or ask the application to find additional room. Dashed movement envelopes help show where instruments could interfere with walls or with each other.
 
-![Floor plan showing two telescope piers and their swing envelopes](<img width="1919" height="1031" alt="Képernyőkép 2026-10-21 201936" src="https://github.com/user-attachments/assets/4f34ebd1-1b12-4710-acaa-f47e48543e71" />)
+<img width="1919" height="1031" alt="Képernyőkép 2026-10-21 201936" src="https://github.com/user-attachments/assets/4f34ebd1-1b12-4710-acaa-f47e48543e71" />
 
 ### Real telescope and mount dimensions
 
@@ -40,7 +40,7 @@ Specify aperture, focal length, optical tube dimensions, focuser and camera exte
 
 The **Sections** view displays the relationship between the building, the selected pier and its telescope, with tools for checking dimensions.
 
-![Technical section view of the observatory and telescope](<img width="1916" height="1034" alt="Képernyőkép 2026-10-21 202004" src="https://github.com/user-attachments/assets/2570581e-9728-4a90-863c-ce42dfb60b0b" />)
+<img width="1916" height="1034" alt="Képernyőkép 2026-10-21 202004" src="https://github.com/user-attachments/assets/2570581e-9728-4a90-863c-ce42dfb60b0b" />
 
 ## 📐 Know what can move—and what can see the sky
 
@@ -54,7 +54,7 @@ ObziMetria 3D checks more than whether the telescope fits in the room when parke
 
 Choose minimum sky altitudes separately toward the **celestial equator**, **celestial pole**, and **east/west**. The dedicated **Visible Sky** view makes structural obstructions easy to understand.
 
-![Visible-sky horizon analysis showing which directions remain accessible](<img width="1917" height="1030" alt="Képernyőkép 2026-10-21 202025" src="https://github.com/user-attachments/assets/aeede8a0-5a7d-4fbb-8813-c88aaf002304" />)
+<img width="1917" height="1030" alt="Képernyőkép 2026-10-21 202025" src="https://github.com/user-attachments/assets/aeede8a0-5a7d-4fbb-8813-c88aaf002304" />
 
 ## 🌌 Simulate an entire observing night
 
@@ -66,7 +66,7 @@ The sky display shows constellations, celestial objects, twilight and target tra
 
 For every pier, a colour-coded timeline distinguishes clear tracking, structural obstruction, proximity to another telescope, collisions and targets below the horizon. Equatorial mounts can use shared or per-pier **meridian flip** timing.
 
-![Night sky map with M31 and M42 targets and two telescope visibility timelines](<img width="1918" height="1029" alt="Képernyőkép 2026-10-21 202046" src="https://github.com/user-attachments/assets/9b71747c-a5c4-465e-a2f1-acf84884dfaf" />)
+<img width="1918" height="1029" alt="Képernyőkép 2026-10-21 202046" src="https://github.com/user-attachments/assets/9b71747c-a5c4-465e-a2f1-acf84884dfaf" />
 
 Enable **In 3D, plan and sections** to see the simulated telescope orientations throughout the night. The program can also export a step-by-step night observation plan.
 
