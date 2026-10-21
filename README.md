@@ -1,5 +1,7 @@
 # ✦ ObziMetria 3D v2.2
 
+### ⬇️ [Download ObziMetria 3D v2.2 for Windows](https://github.com/drAlbireo/ObziMetria-3D/releases/latest)
+
 ### Interactive Observatory Designer & Night Sky Planning Tool
 
 **Design your observatory. Test the clearances. Explore your night sky — before you build.**
