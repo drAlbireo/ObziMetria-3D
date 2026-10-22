@@ -1,4 +1,4 @@
-# ✦ ObziMetria 3D v2.2
+# ✦ ObziMetria 3D
 
 ### ⬇️ [Download ObziMetria 3D v2.2 for Windows](https://github.com/drAlbireo/ObziMetria-3D/releases/latest)
 
