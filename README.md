@@ -1,154 +1,129 @@
-# ✦ ObziMetria 3D
+# ObziMetria 3D
 
-### ⬇️ [Download ObziMetria 3D v2.2 for Windows](https://github.com/drAlbireo/ObziMetria-3D/releases/latest)
+**Plan your observatory around the telescope — not the other way around.**
 
-### Interactive Observatory Designer & Night Sky Planning Tool
+ObziMetria 3D is an interactive 3D observatory-planning tool for amateur astronomers and astrophotographers. Explore building dimensions, pier heights and positions, roof clearance, telescope movement, local obstacles, and observing conditions *before* you build.
 
-**Design your observatory. Test the clearances. Explore your night sky — before you build.**
+**Current version: ObziMetria 3D v3.0**  
+**Alternative visual edition: Observatory Forge 2.0.0**
 
-ObziMetria 3D is an interactive observatory design and planning application for amateur astronomers, astrophotographers, and anyone preparing to build a personal observatory. It combines a real-time 3D model, technical drawings, telescope and roof clearance checks, and astronomical night simulation in one place.
+Both editions contain the **same planning features and calculations**. They differ in their visual presentation.
 
-A building can look perfectly adequate on paper and still leave too little room for counterweights, a camera, a moving roof, or a second telescope. ObziMetria 3D helps you investigate those problems while your design can still be changed.
+**[Get the latest release](../../releases/latest)** · **[What's new](CHANGELOG.md)** · **[Contact the developer](mailto:makszem.berci@gmail.com)**
 
-<img width="1918" height="1031" alt="Képernyőkép 2026-10-21 201859" src="https://github.com/user-attachments/assets/b516988c-b5c3-4732-9982-1bb6eb95b6a0" />
+## What can you plan?
 
-> **Version 2.2** supports up to **six telescope piers**, both hemispheres, realistic mount geometry, multiple roof types, full-aperture horizon checks, and night-long target tracking. The bundled HTML application works **offline**.
-
-## ✨ Highlights
-
-- **Interactive 3D observatory:** rotate, zoom, inspect and adjust your design, with animated roof movement and see-through walls.
-- **Up to six independent piers:** configure each telescope and mount, move piers on the floor plan, and inspect movement envelopes and possible collisions.
-- **Full-aperture horizon and swing checks:** consider the optical tube, camera, counterweights, mount, walls, rails and opened roof—not merely a single sightline.
-- **Roof clearance and design options:** explore roll-off gable, shed and flat roofs, hinged flaps, and domes.
-- **Real night-sky planning:** search astronomical targets, follow telescope pointing from sunset to sunrise and see when observations are obstructed.
-- **Both hemispheres:** set the site's latitude, longitude and building orientation; celestial-pole pointing adapts automatically.
-- **Save and export:** reopen JSON plans, export SVG drawings, PNG images, N.I.N.A.-compatible `.hrz` horizons and text observation plans.
-
-## 🏗️ Design an observatory in 3D
-
-Start with the setup wizard or edit the building directly. Configure the floor dimensions, wall height and thickness, door location, roof style, pier geometry and telescope equipment. The model, plan views and checks update as you change values.
-
-Use the **Overview**, **Equator side**, **Above**, **Mount close-up**, **See-through** and **Labels** controls to examine details from different perspectives. A red night-vision mode is also available.
-
-### Multiple telescopes, one building
-
-A single design can contain **one to six piers**, each with its own telescope and mount settings. Drag piers around the plan, enter precise positions, or ask the application to find additional room. Dashed movement envelopes help show where instruments could interfere with walls or with each other.
-
-<img width="1919" height="1031" alt="Képernyőkép 2026-10-21 201936" src="https://github.com/user-attachments/assets/4f34ebd1-1b12-4710-acaa-f47e48543e71" />
-
-### Real telescope and mount dimensions
-
-Specify aperture, focal length, optical tube dimensions, focuser and camera extensions, dew shield, pier dimensions and adapters. The mount library includes representative **EQ5, HEQ5, EQ6-R, CEM26, CEM40, CEM70/EQ8, AM3/AM5**, and alt-azimuth classes. Custom German equatorial and alt-azimuth mounts allow you to enter your own measurements.
-
-The **Sections** view displays the relationship between the building, the selected pier and its telescope, with tools for checking dimensions.
-
-<img width="1916" height="1034" alt="Képernyőkép 2026-10-21 202004" src="https://github.com/user-attachments/assets/2570581e-9728-4a90-863c-ce42dfb60b0b" />
-
-## 📐 Know what can move—and what can see the sky
-
-ObziMetria 3D checks more than whether the telescope fits in the room when parked.
-
-- **Horizon visibility:** the full telescope aperture is checked against walls, rails and the open roof at multiple azimuths.
-- **Telescope swing:** the instrument is evaluated through a range of pointing positions to identify its closest approach to walls.
-- **Other instruments:** checks cover interference between telescopes, their movement areas and neighbouring piers.
-- **Roof closure:** compare the parked telescope against the available clearance below the roof.
-- **Automatic recommendations:** adjust wall and pier dimensions toward the visibility targets and roof-clearance requirements, with suggested fixes where necessary.
-
-Choose minimum sky altitudes separately toward the **celestial equator**, **celestial pole**, and **east/west**. The dedicated **Visible Sky** view makes structural obstructions easy to understand.
-
-<img width="1917" height="1030" alt="Képernyőkép 2026-10-21 202025" src="https://github.com/user-attachments/assets/aeede8a0-5a7d-4fbb-8813-c88aaf002304" />
-
-## 🌌 Simulate an entire observing night
-
-Version 2.2 adds an astronomical sky map and night-planning engine. Set the observing date, geographic location and time zone, then assign a target to each pier.
-
-Search **Messier, NGC, IC and Caldwell objects**, thousands of stars, named deep-sky objects, the Moon and planets—or enter right ascension and declination directly. Targets may also be selected on the sky map.
-
-The sky display shows constellations, celestial objects, twilight and target tracks. Use the time slider or playback controls to step from sunset to sunrise, in **10-minute or one-hour increments**.
-
-For every pier, a colour-coded timeline distinguishes clear tracking, structural obstruction, proximity to another telescope, collisions and targets below the horizon. Equatorial mounts can use shared or per-pier **meridian flip** timing.
-
-<img width="1918" height="1029" alt="Képernyőkép 2026-10-21 202046" src="https://github.com/user-attachments/assets/9b71747c-a5c4-465e-a2f1-acf84884dfaf" />
-
-Enable **In 3D, plan and sections** to see the simulated telescope orientations throughout the night. The program can also export a step-by-step night observation plan.
-
-## 🏠 Roof types and construction ideas
-
-The building designer includes **roll-off gable, shed and flat roofs, hinged roof flaps, and domes**, with relevant parameters such as roof rise, travel direction, rails and opening percentage.
-
-A separate **Roof Ideas** studio illustrates preliminary rail, wheel and support concepts and includes a planning checklist. These are concepts only, not load-rated engineered details.
-
-## 🧰 Views and exports
-
-| View | What it shows |
+| Area | Tools |
 | --- | --- |
-| **3D Model** | Interactive building, roof, telescope and pier geometry |
-| **Sections** | Vertical cuts and technical clearances |
-| **Floor Plan** | Building layout, pier positions and swing envelopes |
-| **Visible Sky** | Horizon restrictions caused by the structure |
-| **Sky Map** | Celestial targets, observing conditions and tracking paths |
-| **Roof Ideas** | Preliminary rail and support concepts |
+| Observatory layout | Building dimensions, walls, pier placement, raised platforms and parapets |
+| Roof and dome | Roof-opening clearances, clamshell domes, rotating-dome slit checks and dome synchronization |
+| Telescope equipment | Telescope, equatorial-mount, fork-mount and wedge configurations with 3D geometry |
+| Safety and access | Telescope sweeps, parked positions, collision checks, furniture, doorways and walkways |
+| Local observing sky | Site coordinates, imported or manually entered horizon obstacles and visible-sky checks |
+| Night planning | Sky map, scheduled targets, Moon warnings, recommended targets and a year overview |
+| Design workflow | 3D views, plans and sections, undo/redo, saved designs and side-by-side comparison |
 
-| Output | Use |
-| --- | --- |
-| **JSON plan** | Save a configuration and open it again later |
-| **SVG drawing** | Export a scalable observatory drawing sheet |
-| **PNG image** | Save an image of the 3D design |
-| **HRZ horizon** | Export a custom horizon profile for compatible software such as N.I.N.A. |
-| **Text night plan** | Export a step-by-step observing timeline |
+## Highlights in v3.0
 
-Your current settings can also be remembered between sessions when browser storage is available.
+### Realistic telescope and mount configurations
 
-## 🚀 Download and run
+- **21 named telescope models**, using manufacturer-based tube dimensions in the clearance calculations.
+- **19 named equatorial mounts**, with moving RA/DEC assemblies and model-specific geometry.
+- **13 fork and single-arm mounts**, including the Meade LX200-ACF, Meade LX600-ACF, Celestron CPC Deluxe HD, NexStar Evolution, Celestron Origin and Sky-Watcher AZ-GTi families.
+- Built-in telescope configurations for supported fork mounts, plus configurable equipment for applicable single-arm mounts.
+- A payload check when both a modeled telescope and a modeled mount are selected; camera and accessory weights are estimated.
 
-### Windows (64-bit)
+### Equatorial wedges for fork mounts
 
-1. Open the **Releases** section of this GitHub repository.
-2. Download **`ObziMetria_3D_v2.2_Windows.exe`**, or the Windows ZIP package.
-3. If you downloaded the ZIP, extract it first.
-4. Start the `.exe`. If Microsoft Edge is installed, the program opens in a dedicated Edge app window; otherwise it opens in your default browser.
+Compatible forks can be used upright in **alt-azimuth** or placed on an **equatorial wedge**:
 
-**Requirements:** Windows 10 or 11 (64-bit), a modern installed browser, and WebGL-capable graphics hardware for the 3D view. No separate installation or internet connection is required. The Windows launcher does **not** bundle its own browser engine.
+- **Meade X-Wedge:** latitude adjustment from 25° to 65°.
+- **Celestron HD Pro Wedge:** latitude adjustment from 0° to 90°.
+- The wedge latitude can follow the observing site's latitude, or be adjusted manually.
+- Checks warn when the selected wedge angle misses the celestial pole or falls outside the supported range.
+- A wedged fork is modeled as tracking equatorially, without a German-equatorial meridian flip.
 
-**Windows security note:** The current Windows executable is not digitally signed, so SmartScreen may show a warning. This build has not been fully tested on a Windows computer; testing before wider distribution is recommended.
+### Build for your actual observing site
 
-### Original single-file HTML edition
+- Add obstacles such as trees or buildings by azimuth and altitude, or import horizon data in N.I.N.A. `.hrz`, Stellarium or azimuth/altitude-pair formats.
+- Check the local horizon alongside observatory walls; export a combined `.hrz` horizon.
+- Plan raised floors, rooftop platforms, parapets and roof-opening space.
+- Choose concrete or steel piers and inspect the corresponding drawings and materials calculations.
+- Add furniture and check a walkway from the entrance to the telescopes.
 
-The original application is available as **`ObziMetria_3D_v2.2.html`**. Open it in a modern browser with JavaScript and WebGL support. All essential application code and astronomical catalogues are bundled into the HTML file, allowing offline use.
+### Plan the observing night
 
-## 🆕 What's new in v2.2?
+- Explore a configurable sky map, with star limits, constellation overlays and Messier/Caldwell objects.
+- Build a timed target list for each pier and follow the targets in the night simulation.
+- See Moon-related warnings, local horizon obstructions, dome-slit issues and other observing constraints.
+- Find **Best targets tonight** and review weekly observing opportunities in the **Year** view.
 
-Compared with the original v1.0 roll-off observatory concept, the current version introduces:
+### Dome and roof planning
 
-- Northern and Southern Hemisphere support, plus building orientation relative to true north.
-- Full-aperture horizon and physical telescope swing analysis.
-- More mount classes, custom mount geometry, additional roof types and doors.
-- Automated dimension recommendations and approximate material quantities.
-- Celestial-pole startup pointing and switchable 3D labels.
-- Up to six separately configurable telescope piers with contact checks.
-- A searchable astronomical target catalogue and interactive night-sky map.
-- Sunset-to-sunrise target simulation, obstruction timelines and meridian flip modelling.
-- Expanded drawing, horizon and observation-plan export options.
+- Check the dome slit against the telescope's light path and model a dome that follows a chosen pier.
+- Calculate dome settings intended for N.I.N.A./ASCOM setup, including center offsets and GEM axis length.
+- Model a clamshell dome with east–west or north–south folding direction.
+- Evaluate the effect of prevailing wind on the building's orientation and roof design.
 
-## ⚠️ Important limitations
+### Explore and compare designs
 
-**ObziMetria 3D is a preliminary geometry and planning tool—not a certified construction or engineering design package.** Physical clearances depend on the exact dimensions of your equipment. Library mount dimensions are representative and should be replaced with measurements for critical decisions.
+- Inspect the observatory in 3D, on a floor plan, and in section views.
+- Use **Undo/Redo** for recent design changes.
+- Save a design snapshot and compare it with the current version side by side.
+- Save and reload plans with the newer settings retained.
 
-Rails, roof structure, wind and snow loads, foundations, waterproofing and all structural connections require separate engineering verification. Astronomical positions are suitable for planning (approximately one-arcminute accuracy according to the v2.2 documentation), **not precision mount pointing or telescope control**.
+## Download and run
 
-## 👨‍💻 Creator and data credits
+1. Open **[Releases](../../releases)** and choose the latest published version.
+2. Under **Assets**, download the build provided for your intended platform. A Windows executable and/or a browser-based HTML build may be supplied with a release.
+3. For a portable Windows `.exe`, run the downloaded application. For an HTML build, open the file in a compatible modern browser.
+4. Set your site and observatory dimensions, add your piers and equipment, then review the checks and 3D views before building.
 
-**ObziMetria 3D was created by Mákszem Albert.** The application retains its original visual identity and creator contact information.
+**Note:** The availability and precise startup steps depend on the files attached to each release. Download builds only from a source you trust. On Windows, an unsigned application may produce a security prompt; verify the source before deciding whether to run it.
 
-Astronomical data credits:
+## Suggested planning workflow
 
-- **OpenNGC** — NGC/IC objects, Messier references and common names (**CC BY-SA 4.0**).
-- **Yale Bright Star Catalogue** — Stellar data (**public domain**).
-- **d3-celestial** — Constellation lines and names (**BSD 3-Clause**).
-- **Three.js** — 3D rendering library (**MIT License**).
+1. **Site:** Enter latitude/longitude, prevailing wind and any local horizon obstacles.
+2. **Structure:** Set the building, floor or platform, walls, roof type and opening direction.
+3. **Piers and equipment:** Choose pier types and positions, telescope and mount models, and any wedge settings.
+4. **Clearances:** Review movement, parking, roof, furniture and walkway checks; adjust dimensions as required.
+5. **Night sky:** Pick targets, run the night simulation and inspect the observing timeline.
+6. **Compare and save:** Try alternative designs, compare them and save your preferred configuration.
 
-These credits describe incorporated data and dependencies; they do not imply that the ObziMetria application itself is distributed under those same licenses.
+## Important accuracy notes
 
----
+ObziMetria 3D is a **planning and visualization aid**, not a substitute for on-site measurement, structural design or professional engineering review.
 
-**ObziMetria 3D v2.2 — Design smarter. Check the clearances. Understand your sky.**
+- **Mount, fork and wedge housings** are scaled from manufacturer photos where exact head dimensions are unavailable. Measure your actual setup when clearances are tight; use Custom settings where appropriate.
+- **Dome-sync offsets** use typical mount dimensions. Measure the installed equipment before entering values in N.I.N.A. or an ASCOM dome driver.
+- **Payload estimates** use typical accessory masses and are guidance, not a manufacturer certification.
+- **Furniture, accessories and walking space** are approximated. The walkway analysis uses a floor grid, so narrow gaps can vary by a few centimeters.
+- **Parapets/railings** are treated as solid horizon obstacles. Open railings may block less sky in practice.
+- **Clamshell geometry** represents nested shells folding beside the ring; other DIY hinge designs may obstruct more of the low sky.
+- **Best targets** and the **Year** view account for the selected pier's wall, roof and local horizon, but not neighboring telescope movement; the night simulation includes other telescopes. The year overview samples weekly.
+
+Always verify critical clearances, roof travel, mechanical loads, weather protection, local regulations and building safety on site.
+
+## Versions
+
+| ObziMetria 3D | Observatory Forge | Main addition |
+| --- | --- | --- |
+| **v3.0** | **2.0.0** | Fork and single-arm mounts, equatorial wedges, more detailed imaging train |
+| v2.9 | 1.9.0 | 19 equatorial mount models and payload checks |
+| v2.8 | 1.8.0 | 21 telescope models |
+| v2.7 | 1.7.0 | Steel piers and improved 3D materials/lighting |
+| v2.6 | 1.6.0–1.6.1 | Furniture, walkways, imaging accessories and overall verdict |
+| v2.5 | 1.5.0 | Target schedules, Moon checks, best targets and Year view |
+| v2.4 | 1.4.0 | Raised platforms, clamshell dome, undo/redo and design comparison |
+| v2.3 | 1.3.0 | Local horizon, dome sync and collapsible settings |
+
+For the full details, see **[CHANGELOG.md](CHANGELOG.md)**.
+
+## Contact and support
+
+**Created by Mákszem Albert**  
+Questions, suggestions or bug reports: **[makszem.berci@gmail.com](mailto:makszem.berci@gmail.com)**
+
+If the program helps with your observatory project and you'd like to support continued development, you can leave an optional tip via **[Revolut](https://revolut.me/makszemalbert)**.
+
+Community suggestions are welcome — including real-world equipment measurements and reports of any clearance discrepancies.
