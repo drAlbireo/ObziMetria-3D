@@ -124,6 +124,4 @@ For the full details, see **[CHANGELOG.md](CHANGELOG.md)**.
 **Created by Mákszem Albert**  
 Questions, suggestions or bug reports: **[makszem.berci@gmail.com](mailto:makszem.berci@gmail.com)**
 
-If the program helps with your observatory project and you'd like to support continued development, you can leave an optional tip via **[Revolut](https://revolut.me/makszemalbert)**.
-
 Community suggestions are welcome — including real-world equipment measurements and reports of any clearance discrepancies.
